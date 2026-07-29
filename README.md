@@ -290,7 +290,11 @@ It compresses the distance between an idea and a running prototype, and that's m
 - **LLM:** Claude Sonnet (vision and text)
 - **MCP:** FastMCP (stdio transport)
 - **Language:** Python 3.12+
-- **Cost:** the vision caches are committed, so ingestion costs nothing on a fresh clone. Regenerating them from scratch runs about $0.20. Queries are roughly $0.02 each.
+
+
+**Cost:** the vision caches are committed, so ingestion costs nothing on a fresh clone. Regenerating them from scratch runs about $0.20. Each question costs roughly $0.02, since answering sends eight retrieved chunks to Claude Sonnet.
+
+
 ---
 
 ## 🚀 Future Improvements
