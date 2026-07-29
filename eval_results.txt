@@ -1,0 +1,193 @@
+Indexed 144 chunks from 5 PDF(s)
+
+[1] (text-only) Q: What is the primary challenge addressed by the introduction of the Linked WikiText-2 dataset?
+    gold:      The primary challenge addressed is incorporating factual knowledge into language models due to difficulty in obtaining training data that describes which entities or facts each token is referring to.
+    predicted: The primary challenge addressed by Linked WikiText-2 is that existing extraction datasets, while linking text to a knowledge graph, consist of disjoint sentences that do not provide sufficient context to train a powerful language model. Linked WikiText-2 was introduced to provide a corpus of richly annotated, coherent text aligned to the Wikidata knowledge graph, enabling language models that can dynamically decide which facts to incorporate from the knowledge graph guided by discourse.
+    sources:   [{'doc_name': 'P19-1598.pdf', 'page': 4, 'section': '3 Linked WikiText-2'}, {'doc_name': 'P19-1598.pdf', 'page': 1, 'section': 'Preamble'}]
+    hit@8=1.00  numeric=n/a  f1=0.23  judge=1.00
+
+[2] (multimodal-t) Q: What is the top-1 accuracy of the Oracle KGLM on birthdate prediction?
+    gold:      The top-1 accuracy of the Oracle KGLM on birthdate prediction is 65%.
+    predicted: The Oracle KGLM achieves a top-1 accuracy of 65% on birthdate prediction, with a top-5 accuracy of 68%, as shown in Table 4 of the fact completion results.
+    sources:   [{'doc_name': 'P19-1598.pdf', 'page': 7, 'section': '5.2 Results'}, {'doc_name': 'P19-1598.pdf', 'page': 7, 'section': 'Table 3, Table 4 (normalized)'}]
+    hit@8=n/a  numeric=1.00  f1=0.47  judge=1.00
+
+[3] (multimodal-t) Q: How many documents are there in the training set of the Linked WikiText-2 Corpus?
+    gold:      There are 600 documents in the training set.
+    predicted: There are 600 documents in the training set of the Linked WikiText-2 corpus, as shown in Table 2 of the paper.
+    sources:   [{'doc_name': 'P19-1598.pdf', 'page': 5, 'section': '3 Linked WikiText-2'}]
+    hit@8=n/a  numeric=1.00  f1=0.48  judge=1.00
+
+[4] (multimodal-t) Q: Which language model has the lowest Perplexity (PPL) according to Table 3?
+    gold:      KGLM has the lowest Perplexity (PPL) with a score of 44.1.
+    predicted: According to Table 3 (Perplexity Results on Linked WikiText-2), KGLM has the lowest perplexity (PPL) with a score of 44.1, substantially outperforming the next best model, AWD-LSTM, which achieved a PPL of 74.8.
+    sources:   [{'doc_name': 'P19-1598.pdf', 'page': 7, 'section': '5.2 Results'}, {'doc_name': 'P19-1598.pdf', 'page': 7, 'section': 'Table 3, Table 4 (normalized)'}]
+    hit@8=n/a  numeric=1.00  f1=0.42  judge=1.00
+
+[5] (meta-data) Q: Who is the last author of the paper?
+    gold:      Sameer Singh
+    predicted: The last authors for each document are as follows: D19-1539.pdf: Michael Auli; P19-1164.pdf: Luke Zettlemoyer; P19-1598.pdf: Sameer Singh; W18-4401.pdf: Marcos Zampieri; W18-5713.pdf: Alexander H. Miller.
+    sources:   [{'doc_name': 'D19-1539.pdf', 'page': 1, 'section': 'Document Metadata'}, {'doc_name': 'P19-1164.pdf', 'page': 1, 'section': 'Document Metadata'}, {'doc_name': 'P19-1598.pdf', 'page': 1, 'section': 'Document Metadata'}, {'doc_name': 'W18-4401.pdf', 'page': 1, 'section': 'Document Metadata'}, {'doc_name': 'W18-5713.pdf', 'page': 1, 'section': 'Document Metadata'}]
+    hit@8=n/a  numeric=n/a  f1=0.15  judge=1.00
+
+[6] (meta-data) Q: On which page does the paper introduce the corpus statistics?
+    gold:      Page 5
+    predicted: The WinoMT corpus statistics are introduced on page 2 of the paper (P19-1164.pdf), where Table 1 presents the number of instances broken down by gender across Winogender, WinoBias, and WinoMT datasets.
+    sources:   [{'doc_name': 'P19-1164.pdf', 'page': 2, 'section': 'Table 1 (normalized)'}, {'doc_name': 'P19-1164.pdf', 'page': 2, 'section': '2 Challenge Set for Gender Bias in MT'}]
+    hit@8=n/a  numeric=0.00  f1=0.07  judge=1.00
+
+[7] (meta-data) Q: How many time does the paper mention WikiText-2?
+    gold:      31
+    predicted: The term 'WikiText-2' appears 31 times in P19-1598.pdf.
+    sources:   [{'doc_name': 'P19-1598.pdf', 'page': None, 'section': 'full-text count (31 occurrences)'}]
+    hit@8=n/a  numeric=1.00  f1=0.25  judge=1.00
+
+[8] (text-only) Q: How many Facebook comments were provided in the dataset for training purposes?
+    gold:      12,000 Facebook comments.
+    predicted: The participants were provided with a dataset of 12,000 randomly sampled Facebook comments for training (and 3,000 comments for development) in both English and Hindi.
+    sources:   [{'doc_name': 'W18-4401.pdf', 'page': 3, 'section': '4.1 Issues with the Dataset'}]
+    hit@8=n/a  numeric=1.00  f1=0.21  judge=1.00
+
+[9] (text-only) Q: How many categories of aggression were participants asked to classify texts into?
+    gold:      3 categories: overt aggression, covert aggression, and non-aggression.
+    predicted: Participants were asked to classify texts into 3 categories: Overtly Aggressive (OAG), Covertly Aggressive (CAG), and Non-Aggressive (NAG).
+    sources:   [{'doc_name': 'W18-4401.pdf', 'page': 3, 'section': '2 Related Work'}, {'doc_name': 'W18-4401.pdf', 'page': 3, 'section': '4.1 Issues with the Dataset'}]
+    hit@8=n/a  numeric=1.00  f1=0.22  judge=1.00
+
+[10] (multimodal-t) Q: Which language pair has the highest accuracy (Acc) score for Google Translate according to Table 2?
+    gold:      French (FR) has the highest accuracy score for Google Translate with a score of 63.6.
+    predicted: According to Table 2, Google Translate achieves its highest accuracy score on French (FR) translations, with an Acc of 63.6%. This is the highest accuracy value for Google Translate across all eight tested languages. [1][2]
+    sources:   [{'doc_name': 'P19-1164.pdf', 'page': 3, 'section': 'Table 2, Table 3 (normalized)'}, {'doc_name': 'P19-1164.pdf', 'page': 3, 'section': '3.1 Experimental Setup'}, {'doc_name': 'P19-1164.pdf', 'page': 4, 'section': 'Table 4 (normalized)'}, {'doc_name': 'P19-1164.pdf', 'page': 4, 'section': '3.2 Results'}, {'doc_name': 'P19-1164.pdf', 'page': 2, 'section': '2 Challenge Set for Gender Bias in MT'}, {'doc_name': 'P19-1164.pdf', 'page': 5, 'section': 'Table 5 (normalized)'}, {'doc_name': 'W18-5713.pdf', 'page': 4, 'section': '3.2 Evaluation by Human Judgement Scores'}]
+    hit@8=n/a  numeric=1.00  f1=0.43  judge=1.00
+
+[11] (multimodal-f) Q: Based on Figure 2, which language exhibited the greatest bias in accuracy between stereotypical and non-stereotypical gender roles when using Google Translate?
+    gold:      HE (Hebrew) exhibited the greatest bias in accuracy between stereotypical and non-stereotypical gender roles when using Google Translate, with an accuracy of 76% for stereotypical roles and 38% for non-stereotypical roles, resulting in a difference of 38 percentage points.
+    predicted: Based on Figure 2 and the supporting data in Table 2, French (FR) exhibited the greatest bias between stereotypical and non-stereotypical gender roles for Google Translate, with a ΔS (difference in F1 score between pro-stereotypical and anti-stereotypical assignments) of 26.7, and the figure's values suggest a large gap between stereotypical (~54%) and non-stereotypical (~33%) accuracy for French.
+    sources:   [{'doc_name': 'P19-1164.pdf', 'page': 4, 'section': '3.2 Results'}, {'doc_name': 'P19-1164.pdf', 'page': 3, 'section': 'Table 2, Table 3 (normalized)'}]
+    hit@8=n/a  numeric=0.00  f1=0.49  judge=1.00
+
+[12] (multimodal-t) Q: Which language showed the greatest improvement in gender prediction accuracy when adjectives were added?
+    gold:      Russian (RU) showed the greatest improvement with an increase of +11.2% in gender prediction accuracy.
+    predicted: Russian (RU) showed the greatest improvement in gender prediction accuracy when stereotypical gender adjectives were added, with an increase of +11.2 percentage points (from 37.7% to 48.9%).
+    sources:   [{'doc_name': 'P19-1164.pdf', 'page': 4, 'section': 'Table 4 (normalized)'}, {'doc_name': 'P19-1164.pdf', 'page': 4, 'section': '3.2 Results'}]
+    hit@8=n/a  numeric=1.00  f1=0.56  judge=1.00
+
+[13] (meta-data) Q: How many references are cited in the paper?
+    gold:      28
+    predicted: The number of references cited varies by paper across the excerpts: approximately 55 for Cloze-driven Pretraining of Self-attention Networks [1], 36 for Evaluating Gender Bias in Machine Translation [2], 34 for Barack's Wife Hillary [3], 64 for Benchmarking Aggression Identification in Social Media [4], and 22 for Retrieve and Refine [5].
+    sources:   [{'doc_name': 'D19-1539.pdf', 'page': 1, 'section': 'Document Metadata'}, {'doc_name': 'P19-1164.pdf', 'page': 1, 'section': 'Document Metadata'}, {'doc_name': 'P19-1598.pdf', 'page': 1, 'section': 'Document Metadata'}, {'doc_name': 'W18-4401.pdf', 'page': 1, 'section': 'Document Metadata'}, {'doc_name': 'W18-5713.pdf', 'page': 1, 'section': 'Document Metadata'}]
+    hit@8=n/a  numeric=0.00  f1=0.00  judge=1.00
+
+[14] (meta-data) Q: How many words are there in total in the paper?
+    gold:      3790
+    predicted: The approximate word counts for all documents are as follows: D19-1539.pdf (Cloze-driven Pretraining of Self-attention Networks): ~6,444 words; P19-1164.pdf (Evaluating Gender Bias in Machine Translation): ~3,951 words; P19-1598.pdf (Barack's Wife Hillary): ~6,807 words; W18-4401.pdf (Benchmarking Aggression Identification in Social Media): ~6,478 words; W18-5713.pdf (Retrieve and Refine): ~4,168 words. The combined total across all five documents is approximately 27,848 words.
+    sources:   [{'doc_name': 'D19-1539.pdf', 'page': 1, 'section': 'Document Metadata'}, {'doc_name': 'P19-1164.pdf', 'page': 1, 'section': 'Document Metadata'}, {'doc_name': 'P19-1598.pdf', 'page': 1, 'section': 'Document Metadata'}, {'doc_name': 'W18-4401.pdf', 'page': 1, 'section': 'Document Metadata'}, {'doc_name': 'W18-5713.pdf', 'page': 1, 'section': 'Document Metadata'}]
+    hit@8=n/a  numeric=0.00  f1=0.00  judge=1.00
+
+[15] (text-only) Q: What training data were used for the models in this study?
+    gold:      Common Crawl paragraphs of arbitrary length.
+    predicted: The study experimented with several pretraining data sources: Common Crawl (ccrawl) at various sizes ranging from 562M to 18,000M tokens, News Crawl (newswire data) at sizes from 562M to 4,500M tokens, and a combination of BooksCorpus and English Wikipedia (both as individual sentences, BWiki-sent, and as concatenated blocks, BWiki-blck) at 3,300M tokens each.
+    sources:   [{'doc_name': 'D19-1539.pdf', 'page': 8, 'section': 'Table 6 (normalized)'}, {'doc_name': 'D19-1539.pdf', 'page': 8, 'section': '6.4 Domain and amount of training data'}]
+    hit@8=0.00  numeric=n/a  f1=0.10  judge=1.00
+
+[16] (multimodal-t) Q: Which training data size from the Common Crawl resulted in the highest average accuracy across all GLUE tasks?
+    gold:      The 18,000 million tokens (M tok) training data size from the Common Crawl resulted in the highest average accuracy of 81.3 across all GLUE tasks.
+    predicted: The Common Crawl training data with 18,000 million tokens resulted in the highest average GLUE score of 81.3, outperforming all smaller subsets which ranged from an average of 79.9 (at 562M tokens) up to 80.9 (at 9,000M tokens).
+    sources:   [{'doc_name': 'D19-1539.pdf', 'page': 8, 'section': 'Table 6 (normalized)'}, {'doc_name': 'D19-1539.pdf', 'page': 8, 'section': '6.4 Domain and amount of training data'}]
+    hit@8=n/a  numeric=1.00  f1=0.56  judge=1.00
+
+[17] (multimodal-t) Q: How does the CNN Base model's performance on the SST-2 task compare to the OpenAI GPT?
+    gold:      The CNN Base model has an SST-2 score of 93.6, which is higher than OpenAI GPT's score of 91.3.
+    predicted: According to the GLUE test results, the CNN Base model achieves an accuracy of 93.6% on SST-2, compared to OpenAI GPT's accuracy of 91.3%, representing an improvement of 2.3 percentage points. [4]
+    sources:   [{'doc_name': 'D19-1539.pdf', 'page': 6, 'section': '6.1 GLUE'}, {'doc_name': 'D19-1539.pdf', 'page': 5, 'section': '5.2 Pretraining hyper-parameters'}, {'doc_name': 'D19-1539.pdf', 'page': 8, 'section': '6.4 Domain and amount of training data'}, {'doc_name': 'D19-1539.pdf', 'page': 6, 'section': 'Table 2, Table 3, Table 4 (normalized)'}, {'doc_name': 'D19-1539.pdf', 'page': 7, 'section': '6.3 Objective functions for pretraining'}, {'doc_name': 'D19-1539.pdf', 'page': 6, 'section': '6.2 Structured Prediction'}, {'doc_name': 'D19-1539.pdf', 'page': 2, 'section': '1 Introduction'}, {'doc_name': 'D19-1539.pdf', 'page': 7, 'section': '6.2.1 Named Entity Recognition'}]
+    hit@8=n/a  numeric=0.00  f1=0.38  judge=1.00
+
+[18] (multimodal-t) Q: Which model has the highest test F1 score according to Table 4?
+    gold:      The CNN Large with fine-tune model has the highest test F1 score of 95.6.
+    predicted: According to Table 4 (Penn Treebank Constituency Parsing results), the CNN Large + fine-tune model achieves the highest test F1 score of 95.6, compared to ELMo_BASE (95.1) and CNN Large + ELMo (95.2). [6]
+    sources:   [{'doc_name': 'W18-5713.pdf', 'page': 4, 'section': 'Table 4, Table 5 (normalized)'}, {'doc_name': 'W18-5713.pdf', 'page': 4, 'section': '3.2 Evaluation by Human Judgement Scores'}, {'doc_name': 'D19-1539.pdf', 'page': 8, 'section': '6.4 Domain and amount of training data'}, {'doc_name': 'W18-4401.pdf', 'page': 8, 'section': '6 Results'}, {'doc_name': 'D19-1539.pdf', 'page': 6, 'section': '6.2 Structured Prediction'}, {'doc_name': 'D19-1539.pdf', 'page': 6, 'section': 'Table 2, Table 3, Table 4 (normalized)'}, {'doc_name': 'P19-1164.pdf', 'page': 2, 'section': '2 Challenge Set for Gender Bias in MT'}, {'doc_name': 'D19-1539.pdf', 'page': 6, 'section': '6.1 GLUE'}]
+    hit@8=n/a  numeric=1.00  f1=0.41  judge=1.00
+
+[19] (multimodal-t) Q: What loss function achieved the highest average performance according to Table 5?
+    gold:      The cloze loss function achieved the highest average performance according to Table 5 with an average score of 80.9.
+    predicted: According to Table 5, the cloze loss function achieved the highest average performance with an average score of 80.9 on the GLUE development sets, outperforming both the bilm loss (79.3) and the combination of cloze + bilm (80.4).
+    sources:   [{'doc_name': 'D19-1539.pdf', 'page': 7, 'section': 'Table 5 (normalized)'}, {'doc_name': 'D19-1539.pdf', 'page': 7, 'section': '6.3 Objective functions for pretraining'}]
+    hit@8=n/a  numeric=0.00  f1=0.62  judge=1.00
+
+[20] (multimodal-f) Q: What is the purpose of the combination (comb) layers in Figure 2?
+    gold:      The combination layers are used to merge different embeddings together to produce a final representation that can be used for a downstream task such as classification.
+    predicted: This question does not appear to be related to the indexed documents, so I can't answer it from them.
+    sources:   []
+    hit@8=n/a  numeric=n/a  f1=0.19  judge=0.00
+
+[21] (meta-data) Q: Are all authors from the same affilation?
+    gold:      yes
+    predicted: This question does not appear to be related to the indexed documents, so I can't answer it from them.
+    sources:   []
+    hit@8=n/a  numeric=n/a  f1=0.00  judge=0.00
+
+[22] (meta-data) Q: Where does the paper publish at?
+    gold:      the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing
+    predicted: The papers were published at the following venues: EMNLP-IJCNLP 2019 [1], ACL 2019 [2][3], Proceedings of the First Workshop on Trolling, Aggression and Cyberbullying at COLING 2018 [4], and the 2018 EMNLP Workshop SCAI (2nd International Workshop on Search-Oriented Conversational AI) [5].
+    sources:   [{'doc_name': 'D19-1539.pdf', 'page': 1, 'section': 'Document Metadata'}, {'doc_name': 'P19-1164.pdf', 'page': 1, 'section': 'Document Metadata'}, {'doc_name': 'P19-1598.pdf', 'page': 1, 'section': 'Document Metadata'}, {'doc_name': 'W18-4401.pdf', 'page': 1, 'section': 'Document Metadata'}, {'doc_name': 'W18-5713.pdf', 'page': 1, 'section': 'Document Metadata'}]
+    hit@8=n/a  numeric=0.00  f1=0.17  judge=1.00
+
+[23] (text-only) Q: What is the reported issue with sequence generation models in dialogue tasks?
+    gold:      They tend to produce short, generic sentences containing frequent words.
+    predicted: Sequence generation models in dialogue tasks tend to produce short, generic sentences containing frequent words — the so-called 'I don't know' problem — as that response can work as a reply in many instances, but is uninformative and unengaging.
+    sources:   [{'doc_name': 'W18-5713.pdf', 'page': 1, 'section': 'Preamble'}, {'doc_name': 'W18-5713.pdf', 'page': 1, 'section': '1 Introduction'}]
+    hit@8=n/a  numeric=n/a  f1=0.35  judge=1.00
+
+[24] (text-only) Q: Is the Seq2Seq model shown to produce longer or shorter sentences when compared to human responses?
+    gold:      Shorter.
+    predicted: The Seq2Seq model is shown to produce shorter sentences compared to human responses. According to the word statistics, Seq2Seq produces responses with lower word and character counts (11.7 words and 40.5 characters on average) compared to human responses (13.0 words and 54.6 characters), and also uses fewer rare words.
+    sources:   [{'doc_name': 'W18-5713.pdf', 'page': 3, 'section': '3.1 Automatic Evaluation and Analysis'}]
+    hit@8=1.00  numeric=n/a  f1=0.00  judge=1.00
+
+[25] (multimodal-t) Q: How many total evaluations were collected for the comparison between RetrieveNRefine++ (retrieved) vs. Seq2Seq?
+    gold:      total of 626 evaluations were collected for RetrieveNRefine++ (retrieved) vs. Seq2Seq (290 A Wins + 249 B Wins + 87 Ties = 626).
+    predicted: According to Table 5, the comparison between RetrieveNRefine⁺⁺(retrieved) vs. Seq2Seq collected a total of 626 evaluations: 290 A wins, 249 B wins, and 87 ties.
+    sources:   [{'doc_name': 'W18-5713.pdf', 'page': 4, 'section': 'Table 4, Table 5 (normalized)'}]
+    hit@8=n/a  numeric=1.00  f1=0.70  judge=1.00
+
+[26] (multimodal-t) Q: Which method scored the highest in the Engagingness metric?
+    gold:      RetrieveNRefine++ scored the highest in the Engagingness metric with a score of 3.80.
+    predicted: Based on the human evaluation scores in Table 4, **RetrieveNRefine⁺⁺** scored the highest in the Engagingness metric with a score of **3.80 (±1.18)**, slightly outperforming the Memory Network (3.66) and RetrieveNRefine⁺ (3.50). [1, 2]
+    sources:   [{'doc_name': 'W18-5713.pdf', 'page': 4, 'section': 'Table 4, Table 5 (normalized)'}, {'doc_name': 'W18-5713.pdf', 'page': 4, 'section': '3.2 Evaluation by Human Judgement Scores'}, {'doc_name': 'W18-4401.pdf', 'page': 3, 'section': '2 Related Work'}, {'doc_name': 'W18-5713.pdf', 'page': 3, 'section': '3.1 Automatic Evaluation and Analysis'}, {'doc_name': 'W18-5713.pdf', 'page': 3, 'section': '3.2 Evaluation by Human Judgement Scores'}, {'doc_name': 'W18-4401.pdf', 'page': 4, 'section': '4.1 Issues with the Dataset'}]
+    hit@8=n/a  numeric=1.00  f1=0.45  judge=1.00
+
+[27] (multimodal-t) Q: How much did the Engagingness score improve when comparing Seq2Seq (PPL) to RetrieveNRefine++?
+    gold:      The Engagingness score improved by 1.10 points when comparing Seq2Seq (PPL) with a score of 2.70 to RetrieveNRefine++ with a score of 3.80.
+    predicted: The Engagingness score improved by 1.10 points, from 2.70 (±1.17) for Seq2Seq (PPL) to 3.80 (±1.18) for RetrieveNRefine++, as reported in Table 4 of the human evaluation results.
+    sources:   [{'doc_name': 'W18-5713.pdf', 'page': 4, 'section': 'Table 4, Table 5 (normalized)'}, {'doc_name': 'W18-5713.pdf', 'page': 4, 'section': '3.2 Evaluation by Human Judgement Scores'}]
+    hit@8=n/a  numeric=1.00  f1=0.52  judge=1.00
+
+[28] (multimodal-t) Q: Which method produces the longest sentences in terms of word count?
+    gold:      MemNet produces the longest sentences with a word count of 13.1.
+    predicted: Based on Table 2 in the excerpts, the Memory Network (MemNet) produces the longest sentences with an average word count of 13.1, which is slightly higher than the human average of 13.0 and considerably higher than Seq2Seq's 11.7. [1][2]
+    sources:   [{'doc_name': 'W18-5713.pdf', 'page': 3, 'section': 'Table 2, Table 3 (normalized)'}, {'doc_name': 'W18-5713.pdf', 'page': 3, 'section': '3.1 Automatic Evaluation and Analysis'}, {'doc_name': 'W18-4401.pdf', 'page': 7, 'section': '5 Participants and Approaches'}, {'doc_name': 'D19-1539.pdf', 'page': 5, 'section': '5.2 Pretraining hyper-parameters'}, {'doc_name': 'W18-5713.pdf', 'page': 4, 'section': '3.2 Evaluation by Human Judgement Scores'}, {'doc_name': 'W18-5713.pdf', 'page': 1, 'section': 'Preamble'}, {'doc_name': 'W18-4401.pdf', 'page': 5, 'section': '5 Participants and Approaches'}]
+    hit@8=n/a  numeric=1.00  f1=0.36  judge=1.00
+
+[29] (multimodal-t) Q: Which model pair had the highest win rate according to Table 5?
+    gold:      The RetrieveNRefine++ vs. Memory Network pair had the highest win rate with 54.5%.
+    predicted: According to Table 5, the model pair with the highest win rate was **RetrieveNRefine⁺⁺ vs. Memory Network**, with a win rate of 54.5% (340 wins for A, 284 wins for B, and 572 ties), which was also statistically significant with a p-value of 0.027. [3]
+    sources:   [{'doc_name': 'W18-5713.pdf', 'page': 4, 'section': '3.2 Evaluation by Human Judgement Scores'}, {'doc_name': 'D19-1539.pdf', 'page': 6, 'section': '6.2 Structured Prediction'}, {'doc_name': 'W18-5713.pdf', 'page': 4, 'section': 'Table 4, Table 5 (normalized)'}, {'doc_name': 'D19-1539.pdf', 'page': 7, 'section': '6.3 Objective functions for pretraining'}, {'doc_name': 'W18-5713.pdf', 'page': 5, 'section': '3.3 A/B Testing by Humans'}, {'doc_name': 'D19-1539.pdf', 'page': 4, 'section': '4 Fine-tuning'}, {'doc_name': 'P19-1164.pdf', 'page': 3, 'section': '3.1 Experimental Setup'}]
+    hit@8=n/a  numeric=1.00  f1=0.35  judge=1.00
+
+[30] (meta-data) Q: What is the first sentence on page 5?
+    gold:      RetrieveNRefine obtains statistically significant wins over the retriever Memory Network model and the generator Seq2Seq model using a binomial two-tailed test, with win rates ∼54%.
+    predicted: This question does not appear to be related to the indexed documents, so I can't answer it from them.
+    sources:   []
+    hit@8=n/a  numeric=0.00  f1=0.00  judge=0.00
+
+[31] (unanswerable) Q: What is the capital of France?
+    fallback triggered: True  ->  This question does not appear to be related to the indexed documents, so I can't answer it from them.
+
+============================================================
+Retrieval hit-rate@8     0.67  (n=3)
+Numeric exact-match      0.65  (n=23)
+Token F1                 0.31  (n=30)
+LLM-judge correctness    0.90  (n=31)
+
+Correctly answered:   28/31
+Answerable accuracy:  28/30 (93%)

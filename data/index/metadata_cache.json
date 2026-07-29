@@ -1,0 +1,92 @@
+{
+ "D19-1539.pdf:metadata:310f4f2e6eec50c1": {
+  "title": "Cloze-driven Pretraining of Self-attention Networks",
+  "authors": [
+   "Alexei Baevski",
+   "Sergey Edunov",
+   "Yinhan Liu",
+   "Luke Zettlemoyer",
+   "Michael Auli"
+  ],
+  "affiliations": [
+   "Facebook AI Research"
+  ],
+  "venue": "EMNLP-IJCNLP 2019",
+  "emails": null
+ },
+ "P19-1164.pdf:metadata:47e5c8397008d982": {
+  "title": "Evaluating Gender Bias in Machine Translation",
+  "authors": [
+   "Gabriel Stanovsky",
+   "Noah A. Smith",
+   "Luke Zettlemoyer"
+  ],
+  "affiliations": [
+   "Paul G. Allen School of Computer Science & Engineering, University of Washington, Seattle, USA",
+   "Allen Institute for Artificial Intelligence, Seattle, USA"
+  ],
+  "venue": "ACL 2019",
+  "emails": [
+   "gabis@cs.washington.edu",
+   "nasmith@cs.washington.edu",
+   "lsz@cs.washington.edu"
+  ]
+ },
+ "P19-1598.pdf:metadata:356b61aae5d5b38f": {
+  "title": "Barack's Wife Hillary: Using Knowledge Graphs for Fact-Aware Language Modeling",
+  "authors": [
+   "Robert L. Logan IV",
+   "Nelson F. Liu",
+   "Matthew E. Peters",
+   "Matt Gardner",
+   "Sameer Singh"
+  ],
+  "affiliations": [
+   "University of California, Irvine, CA, USA",
+   "University of Washington, Seattle, WA, USA",
+   "Allen Institute for Artificial Intelligence, Seattle, WA, USA"
+  ],
+  "venue": "ACL 2019",
+  "emails": [
+   "rlogan@uci.edu",
+   "sameer@uci.edu",
+   "mattg@allenai.org",
+   "matthewp@allenai.org",
+   "nfliu@cs.washington.edu"
+  ]
+ },
+ "W18-4401.pdf:metadata:5d64a4145b2a5529": {
+  "title": "Benchmarking Aggression Identification in Social Media",
+  "authors": [
+   "Ritesh Kumar",
+   "Atul Kr. Ojha",
+   "Shervin Malmasi",
+   "Marcos Zampieri"
+  ],
+  "affiliations": [
+   "Bhim Rao Ambedkar University",
+   "Jawaharlal Nehru University",
+   "Harvard Medical School",
+   "University of Wolverhampton"
+  ],
+  "venue": "Proceedings of the First Workshop on Trolling, Aggression and Cyberbullying, COLING 2018",
+  "emails": null
+ },
+ "W18-5713.pdf:metadata:251fe59759f45bc4": {
+  "title": "Retrieve and Refine: Improved Sequence Generation Models For Dialogue",
+  "authors": [
+   "Jason Weston",
+   "Emily Dinan",
+   "Alexander H. Miller"
+  ],
+  "affiliations": [
+   "Facebook AI Research"
+  ],
+  "venue": "Proceedings of the 2018 EMNLP Workshop SCAI: The 2nd International Workshop on Search-Oriented Conversational AI 2018",
+  "emails": [
+   "jase@fb.com",
+   "edinan@fb.com",
+   "ahm@fb.com"
+  ]
+ }
+}

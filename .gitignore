@@ -1,0 +1,5 @@
+.env
+data/vectorstore/
+__pycache__/
+.vscode/
+.DS_Store
